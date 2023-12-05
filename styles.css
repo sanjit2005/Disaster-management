@@ -1,0 +1,110 @@
+*{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(220, 198, 252);
+}
+
+header {
+    background-image: url('Assets/header.jpg');
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1em;
+    height: 200px;
+}
+header h1{
+    transition: .3s all ease;
+    margin-top: 70px;
+    font-size: 36pt;
+
+}
+header h1:hover{
+    transform: scale(1.05);
+}
+nav {
+    background-color: rgb(246, 172, 81);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+nav ul li a:hover{
+    transform: scale(1.03);
+}
+nav a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+#main-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(246, 172, 81);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 0;
+    padding: 1em;
+    height: 80px;
+    bottom: 0;
+    width: 100%;
+    font-size: 14pt;
+}
+#main-content{
+    margin: 100px;
+}
+#main-content h2{
+    font-size: 28pt;
+}
+#main-content h3{
+    margin-top: 50px;
+    font-size: 20pt;
+}
+#main-content p{
+    font-size: 16pt;
+}
+.nat{
+    padding-left: 100px;
+    color: purple;
+    font-weight: bold;
+}
+.nat{
+    display: inline-block;
+}
+.types img{
+    height: 230px;
+    width: 360px;
+    float: right;
+    margin-right: 100px;
+    border: 5px solid purple;
+    border-radius: 50px;
+}
+#dm{
+    height: 400px;
+    width: 800px;
+    display: block;
+    float: none;
+    align-items: center;
+    margin-left: 15%;
+}
+#resources a{
+    font-size: 18pt;
+}
+#resources h3{
+    font-size: 28pt;
+}
